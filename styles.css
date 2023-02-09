@@ -1,0 +1,139 @@
+html {
+  color: #1d3461;
+  background-color: #1f487e;
+  font-size: 14pt;
+  height: 100%;
+}
+
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #d2dfef;
+  min-height: 100%;
+}
+
+header {
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+#h1Background {
+  background-color: #829cbc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px #464f51;
+
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 12pt;
+  }
+  body {
+    /* need to figure out why the margins are not changing from the below items*/
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+}
+
+body {
+  /* need to figure out why the margins are not changing from the below items*/
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+
+
+  .divContainingForm {
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .formLabel, #viewExpenses {
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+
+  .form, section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #829cbc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #464f51;
+    font-family: 'Oswald', sans-serif;
+    width: 70%;
+    
+  }
+
+
+  .budgetInput, .expensesInput {
+    border-radius: 10px;
+  }
+
+  #expensesType, #expensesFilter {
+    border-radius: 10px;
+    margin: 5px;
+  }
+
+  .submit, #filter {
+    border-radius: 10px;
+    margin: 10px;
+  }
+
+  #viewExpensesDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+
+#incomeEntry {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#incomeArray {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+}
+#incomeTotal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#expensesEntry {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#expensesArray {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+}
+
+#expensesTotal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
